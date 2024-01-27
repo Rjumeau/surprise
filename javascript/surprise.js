@@ -67,7 +67,7 @@ function checkAnswer() {
 
 function showFinalResult(questionContainer, resultContainer) {
   const img = document.createElement("img")
-  img.src = "../images/ps5.png"
+  img.src = "https://i.postimg.cc/SsYFFjmF/ps5-final.png"
   img.classList.add("final-img")
   resultContainer.appendChild(img)
   toggle(questionContainer);
